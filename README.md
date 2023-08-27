@@ -1,3 +1,7 @@
-This Project uses Chainlit, Chroma DB and GPT to perform question answering on a selected document. The model also returns the section of input document which was the most similar to the input query. 
+This Project uses Chainlit, and GPT to perform question answering on a selected document. The model also returns the section of input document which was the most similar to the input query. 
+This is how the application looks, where there is an option to upload a document. When a document is uploaded, it is partitioned into various sections and stored in a database.
 
-![Sample Image](Input Template.png)
+![Input Image](Input%20Template.png)
+
+This is an example of how the Chainlit application works. When a question is asked, the model queries the document and uses the sections of the document that are close to the input query. These sections can also be seen in the application.
+![Result Image](Result%20Template.png)
