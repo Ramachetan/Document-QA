@@ -7,4 +7,4 @@ This is an example of how the Chainlit application works. When a question is ask
 ![Result Image](Result%20Template.png)
 
 Start the application by installing the requirements and run the command: chainlit run document_qa.py -w
-This will start the application on [the default port 8000](http://localhost:8000)http://localhost:8000
+This will start the application on [port 8000 ](http://localhost:8000)http://localhost:8000
