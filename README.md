@@ -6,5 +6,5 @@ This is how the application looks, where there is an option to upload a document
 This is an example of how the Chainlit application works. When a question is asked, the model queries the document and uses the sections of the document that are close to the input query. These sections can also be seen in the application.
 ![Result Image](Result%20Template.png)
 
-Start the application by installing the requirements and run the command: chainlit run document_qa.py -w
+Start the application by installing the requirements and run the command: chainlit run document_qa.py -w 
 This will start the application on [port 8000 ](http://localhost:8000)http://localhost:8000
